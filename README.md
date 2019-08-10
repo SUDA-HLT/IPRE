@@ -11,7 +11,7 @@ IPRE: a Dataset for Inter-Personal Relationship Extraction
 The above table shows the format of our data set. Some keywords are explained as follows:
 * e<sub>h</sub> &emsp; The head entity in the sentence.
 * e<sub>t</sub> &emsp; The tail entity in the sentence.
-* sentence  &emsp; A sentence contain the e<sub>h</sub> and e<sub>t</sub>, which segmented by [Jieba](https://github.com/fxsjy/jieba).
+* sentence  &emsp; A segmented sentence contains the e<sub>h</sub> and e<sub>t</sub>.
 * sentID &emsp; A unique ID given to an instance, which consists of a ordered entity pair and a sentence.
 * bagID  &emsp; A unique ID given to a bag, and all setences in a bag contains the same entity pair.
 * relationID &emsp; A unique ID given to a relation type.
