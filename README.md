@@ -4,15 +4,15 @@ IPRE: a Dataset for Inter-Personal Relationship Extraction
 ## Dataset/Format
 |**Files**|**Contents**|
 |:------|:------|
-|sent_train/dev/test|sentID &ensp; instance|
+|sent_train/dev/test|sentID &ensp; e<sub>h</sub> &ensp; e<sub>t</sub> &ensp; sentence|
 |sent_relation_train/dev/test|sentID &ensp; relationIDs|
 |bag_relation_train/dev/test|bagID &ensp; e<sub>h</sub> &ensp; e<sub>t</sub> &ensp; sentIDs &ensp; relationIDs|
 
 The above table shows the format of our data set. Some keywords are explained as follows:
 * e<sub>h</sub> &emsp; The head entity in the sentence.
 * e<sub>t</sub> &emsp; The tail entity in the sentence.
-* instance &emsp; An instance consists of a ordered entity pair and a sentence, which segmented by the [Jieba](https://github.com/fxsjy/jieba)
-* sentID &emsp; A unique ID given to an instance.
+* sentence  &emsp; A sentence contain the e<sub>h</sub> and e<sub>t</sub>, which segmented by [Jieba](https://github.com/fxsjy/jieba).
+* sentID &emsp; A unique ID given to an instance, which consists of a ordered entity pair and a sentence.
 * bagID  &emsp; A unique ID given to a bag, and all setences in a bag contains the same entity pair.
 * relationID &emsp; A unique ID given to a relation type.
 
